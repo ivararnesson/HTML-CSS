@@ -3,12 +3,12 @@ var meny = document.querySelector(".meny");
 
 menyKnappen.addEventListener("click", function()
 {
-    if (meny.style.display === "none")
+    if (meny.classList.contains("visa"))
     {
-        meny.style.display = "block";
+        meny.classList.remove("visa");
     }
     else
     {
-        meny.style.display = "none";
+        meny.classList.add("visa");
     }
 });
