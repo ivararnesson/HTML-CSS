@@ -3,7 +3,7 @@ var meny = document.querySelector(".meny");
 
 menyKnappen.addEventListener("click", function()
 {
-    if (meny.style.display === "none" || meny.style.display === "")
+    if (meny.style.display === "none")
     {
         meny.style.display = "block";
     }
