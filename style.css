@@ -1,15 +1,17 @@
-.meny
-{
+.meny {
     display: none;
 }
-.container
-{
+
+.visa {
+    display: block;
+}
+
+.container {
     text-align: center;
-
 }
-p
-{
+
+p {
     font-family: "Arial", sans serif;
-
 }
+
 
