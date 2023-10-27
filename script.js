@@ -3,8 +3,7 @@ var meny = document.querySelector(".meny");
 
 menyKnappen.addEventListener("click", function()
 {
-    var computedStyle = window.getComputedStyle(meny);
-    if (computedStyle.display === "none" || computedStyle === "")
+    if (meny.style.display === "none" || meny.style.display === "")
     {
         meny.style.display = "none";
     }
