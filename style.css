@@ -13,5 +13,10 @@
 p {
     font-family: "Arial", sans serif;
 }
+.text-container{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
 
 
