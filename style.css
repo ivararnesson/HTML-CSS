@@ -20,6 +20,10 @@ p {
 }
 #meny-knapp:hover{
     background-color: blue;
+    cursor: pointer;
+}
+.meny a:hover{
+    background-color: gray;
 }
 
 
