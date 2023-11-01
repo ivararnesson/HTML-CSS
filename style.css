@@ -18,5 +18,8 @@ p {
     margin-left: 300px;
     margin-right: 300px;
 }
+#meny-knapp:hover{
+    background-color: blue;
+}
 
 
