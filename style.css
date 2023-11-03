@@ -1,5 +1,11 @@
 .meny {
     display: none;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    background-color: beige;
+    padding: 20px;
+    border: 1px solid black;
 }
 
 .visa {
