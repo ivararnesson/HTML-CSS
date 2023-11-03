@@ -25,5 +25,21 @@ p {
 .meny a:hover{
     background-color: gray;
 }
+#meny-knapp{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+.klocka{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+#date, #clock{
+    margin-left: 10px;
+}
 
 
